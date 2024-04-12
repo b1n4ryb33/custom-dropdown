@@ -1,0 +1,39 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "prettier": "npx prettier . --write",
+    "lint": "npx eslint ./src"
+  },
+  "keywords": [],
+  "author": "b1n4ryb33",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "css-loader": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "globals": "^15.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "3.2.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
