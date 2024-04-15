@@ -12,17 +12,6 @@ import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
 
-import { sampleComponent } from "./sample-component/sample-component";
+import { dropdownController } from "./dropdown-controller/dropdown-controller";
 
-function component() {
-    const element = document.createElement('div');
-    let sampleComponentTest = sampleComponent();
-    element.innerHTML = sampleComponentTest.sayHello();
-  
-    return element;
-  
-  }
-  
-
-
-  document.body.appendChild(component());
+dropdownController.initialize();

@@ -1,0 +1,12 @@
+.dropdown-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item-container span.dropdown-item {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
